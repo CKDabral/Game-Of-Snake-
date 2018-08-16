@@ -265,7 +265,7 @@ void storeMatrixToFile(node** head,food Food)
 	FILE *fp;
 	int x,y;
 	char c,ch='\n',ch1='$';
-	fp=fopen("gauravSnake3.txt","w");
+	fp=fopen("lovesnake.txt","w");
 
 	fprintf(fp,"%c %d %d\n",Food.value,Food.X,Food.Y);
 	while(ptr)
@@ -292,7 +292,7 @@ food getMatrixFromFile(node** head,char arr[height][width],node**tail)
 	char c;
 
 FILE* fptr;
-fptr=fopen("gauravSnake3.txt","r");
+fptr=fopen("lovesnake.txt","r");
 
 fscanf(fptr,"%c %d %d",&ch,&x,&y);
 Food.X=x;
