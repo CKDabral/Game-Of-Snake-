@@ -213,6 +213,7 @@ void moveLeft(node** ptr)
 
 
 }
+
 void moveDown(node** ptr)
 {
 
@@ -496,6 +497,10 @@ getch();
 
 
 }
+
+//Analysed by user CKDabral(github.com/CKDabral)
+
+
 /*void LinkingInNodes(node** Node,char c,node** temp,FILE* fp)
 {
 	if(c==EOF)
